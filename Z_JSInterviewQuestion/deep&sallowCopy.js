@@ -8,14 +8,14 @@ sallow copy ke 2 way h
 1-Object.assign({},obj)
 2-{...obj} */
 
-/* let obj={
+let obj={
     name:"amit"
 }
 //let user=Object.assign({},obj)    //shallow copy
 let user={...obj}
 user.name="sumit"
 console.log("Obj",obj)
-console.log("user",user) */
+console.log("user",user) 
 
 //================DeepCopy===================//
 
